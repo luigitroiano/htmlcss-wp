@@ -1,0 +1,244 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-image: url("https://s0.wp.com/wp-content/themes/premium/natural/images/natural-default-pattern.png");
+}
+
+/* utility class */
+.fl{
+  float: left;
+}
+
+.clearfix:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+h3{
+  color: #332520;
+}
+
+.padding_style{
+  padding: 20px 16px;
+}
+/* /utility class */
+
+.container{
+  width: 1000px;
+  height: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* inizio header */
+.heading{
+  width: 75%;
+  height: 300px;
+  margin: auto;
+  background-image: url("https://s0.wp.com/wp-content/themes/premium/natural/images/natural-default-header.jpg");
+  background-size: cover;
+  border: 7px solid white;
+  padding-top: 50px;
+}
+
+.logo_mountain{
+  width: auto;
+  height: 170px;
+  display: block;
+  margin: auto;
+}
+
+.heading p{
+  margin: auto;
+  width: 450px;
+  color: white;
+  font-size: 21px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* navbar */
+nav{
+  width: 75%;
+  height: 34px;
+  margin: auto;
+  background-color: #585757;
+  text-align: center;
+}
+
+nav .menu_nav{
+  text-transform: uppercase;
+  list-style: none;
+  font-size: 12px;
+  padding: 10px;
+}
+
+nav li{
+  display: inline-block;
+}
+
+.menu_nav li a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+li:hover a{
+  text-decoration: underline;
+  color: black;
+  background-color: lightgrey;
+}
+/* /navbar */
+/* / header */
+
+/* inizio main */
+main{
+  width: 75%;
+  height: auto;
+  margin: auto;
+}
+
+.sidebar_left{
+  width: 25%;
+  height: auto;
+}
+
+.content_page{
+  width: 50%;
+  height: auto;
+}
+
+.sidebar_right{
+  width: 25%;
+  height: auto;
+}
+
+.content{
+  height: 100%;
+  background-color: white;
+  margin-top: 8px;
+  border-radius: 5px;
+}
+
+.left{
+  margin-right: 15px;
+}
+
+.center{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.right{
+  height: 40%;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+/* regole css sidebar left */
+.sidebar_left i{
+  float: left;
+  color: orange;
+  font-size: 25px;
+  padding: 3px 6px;
+}
+
+#subtitle_sidebar_left{
+  font-size: 20px;
+  padding-top: 3px;
+}
+
+.paragraphs_sidebar_left{
+  padding: 10px 6px;
+}
+
+.paragraphs_sidebar_left a{
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 15px;
+  color: green;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.paragraphs_sidebar_left > a:hover{
+  background-color: lightgrey;
+  text-decoration: underline;
+  color: black;
+}
+/* /regole css sidebar left */
+
+/* regole css central bar */
+.subtitles{
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0.5px grey;
+}
+
+.paragraphs{
+  line-height: 25px;
+}
+/* /regole css central bar */
+
+/* regole css sidebar right */
+.sidebar_right h3{
+  text-transform: capitalize;
+}
+/* /regole css sidebar right */
+/* / main */
+
+/* inizio footer */
+footer{
+  background-color: white;
+  width: 75%;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  color: lightgrey;
+  border-radius: 5px;
+}
+
+.footer{
+  border-bottom: 1px solid lightgrey;
+  font-style: italic;
+  padding: 1.5px;
+}
+
+.footer_icon{
+  font-size: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.fb_icon{
+    display: inline-block;
+    width: 32%;
+}
+
+.ig_icon{
+    display: inline-block;
+    width: 32%;
+}
+
+.git_icon{
+    display: inline-block;
+    width: 32%;
+}
+
+.fb_icon:hover #facebook{
+  color: blue;
+}
+
+.ig_icon:hover #instagram{
+  color: purple;
+}
+
+.git_icon:hover #git{
+  color: black;
+}
+/* / footer */
